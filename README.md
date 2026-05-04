@@ -72,4 +72,40 @@
 
 ---
 
+## 参考资源
+
+### 核心参考课程
+
+| 课程 | 说明 |
+|------|------|
+| [Microsoft ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) | 现代 LLM Agent 应用层参考（设计原则/FC/RAG/MCP/评估/可观测性） |
+| [Microsoft AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) | AI 基础理论层参考（NLP 演进/BDI 架构/AI 伦理） |
+
+### Agent 开发框架
+
+| 框架 | 说明 |
+|------|------|
+| [LangGraph](https://langchain-ai.github.io/langgraph/) | 图结构状态机 Agent 框架 |
+| [AutoGen](https://microsoft.github.io/autogen/) | 多 Agent 对话与协作框架 |
+| [Semantic Kernel](https://learn.microsoft.com/semantic-kernel/) | 企业级 AI 应用开发框架 |
+| [CrewAI](https://github.com/crewAI/crewAI) | 多 Agent 协作框架 |
+
+### 评估与标准
+
+| 标准 | 说明 |
+|------|------|
+| [OWASP LLM Top 10](https://owasp.org/www-project-llm-top-10/) | 大模型安全威胁最新参考 |
+| [GAIA Benchmark](https://huggingface.co/gaia-benchmark) | 通用 AI 助手能力评估基准 |
+| [SWE-bench](https://swebench.com) | 代码 Agent 能力评估（真实 GitHub Issue 修复） |
+| [WebArena](https://webarena.dev/) | 网页导航 Agent 评估基准 |
+
+### 可观测性与工具
+
+| 工具 | 说明 |
+|------|------|
+| [OpenTelemetry](https://opentelemetry.io/) | 可观测性标准（追踪/指标/日志） |
+| [Langfuse](https://langfuse.com/) | LLM 应用追踪与评估平台 |
+
+---
+
 **更新日期：2026 年 5 月**
