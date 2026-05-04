@@ -117,7 +117,20 @@
 
 | 编号 | 内容 |
 |------|------|
-| Ext01 | 当工具代替我们思考——AI 时代的认知与决策 |
-| Ext02 | AI 时代的关系与身份——真实的人与真实的你 |
-| Ext03 | AI 时代的社会结构——工作、民主与战争的未来 |
-| Ext04 | AI 时代的探索与未来——好奇心与百年后的世界 |
+| Ext01 | [当工具代替我们思考——AI 时代的认知与决策](course/Ext01_当工具代替我们思考_AI时代的认知与决策.md) |
+| Ext02 | [AI 时代的关系与身份——真实的人与真实的你](course/Ext02_AI时代的关系与身份_真实的人与真实的你.md) |
+| Ext03 | [AI 时代的社会结构——工作、民主与战争的未来](course/Ext03_AI时代的社会结构_工作民主与战争的未来.md) |
+| Ext04 | [AI 时代的探索与未来——好奇心与百年后的世界](course/Ext04_AI时代的探索与未来_好奇心与百年后的世界.md) |
+
+---
+
+## 参考资源
+
+| 资源 | 说明 |
+|------|------|
+| [Microsoft ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) | 现代 LLM Agent 应用层参考 |
+| [LangGraph](https://langchain-ai.github.io/langgraph/) | 图结构状态机 Agent 框架 |
+| [AutoGen](https://microsoft.github.io/autogen/) | 多 Agent 对话与协作框架 |
+| [OWASP LLM Top 10](https://owasp.org/www-project-llm-top-10/) | 大模型安全威胁参考 |
+| [GAIA Benchmark](https://huggingface.co/gaia-benchmark) | 通用 AI 助手能力评估基准 |
+| [SWE-bench](https://swebench.com) | 代码 Agent 能力评估 |
