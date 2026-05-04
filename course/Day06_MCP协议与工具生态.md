@@ -206,6 +206,22 @@ MCP 是更高层的抽象，Function Calling 是其底层实现之一
 - **可视化管理**：通过界面安装/卸载
 - **国产类比**：类似钉钉小程序、微信插件
 
+### Skills 2026 年最新进展：从 Claude 特性到行业标准
+
+2025 年 10 月，Anthropic 在 Claude Code 中引入了 Agent Skills 概念——一种"文件夹加 Markdown"的能力封装方式。短短几个月后，这已经成为 AI Agent 能力组织的事实标准：
+
+| 事件 | 时间 | 影响 |
+|------|------|------|
+| Anthropic 在 Claude Code 引入 Skills | 2025年10月 | 开创性的"文件夹+Markdown"设计 |
+| agentskills.io 上线 | 2025年12月18日 | Agent Skills 规范正式开放 |
+| 微软 VS Code / GitHub 集成 | 2025年12月 | 微软直接采用该规范 |
+| OpenAI Codex CLI / ChatGPT 跟进 | 2026年初 | OpenAI 几乎复制了同一架构 |
+| Cursor / Trae / Qoder 跟进 | 2026年 | 国内主流 IDE 全面支持 |
+
+**Skills 的核心价值：**把专业能力封装为可发现、可安装、可组合的单元。AI 应用不需要内置所有能力，用户按需安装——就像手机应用商店，但能力精确到"会写 Python"、"懂财务分析"这个粒度。
+
+**国产动态：** Skills 规范的开源特性使得国内厂商可以无缝对接。Trae IDE 已经完整实现了 Skills 的安装、管理和调用流程，与 agentskills.io 生态兼容。
+
 ### 主流 Skills 示例
 
 | Skills | 功能 | 使用场景 |

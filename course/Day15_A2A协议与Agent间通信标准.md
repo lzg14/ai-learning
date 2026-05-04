@@ -46,14 +46,36 @@ Travel Agent  ←→  Flight Agent（专业订票）
 
 ### 历史背景
 
-| 时间 | 事件 |
-|------|------|
-| 2024 年 11 月 | MCP 协议开源（Anthropic） |
-| 2025 年 4 月 | A2A 协议发布（Google） |
-| 2025 年 12 月 | MCP 捐赠给 Linux Foundation Agentic AI Foundation |
-| 2026 年初 | A2A 捐赠给 Linux Foundation，150+ 组织支持 |
+|| 时间 | 事件 ||
+||------|------|
+|| 2024 年 11 月 | MCP 协议开源（Anthropic） ||
+|| 2025 年 4 月 9 日 | A2A 协议发布（Google Cloud Next 25） ||
+|| 2025 年 6 月 24 日 | Google 将 A2A 捐赠给 Linux Foundation ||
+|| 2025 年 12 月 | MCP 捐赠给 Linux Foundation Agentic AI Foundation ||
+|| 2026 年初 | 50+ 企业支持 A2A（Atlassian、Salesforce、SAP 等） ||
+|| 2026 年 4 月 | A2A v2 发布，支持 Agent 间真正的双向协作（讨论/评审/迭代） ||
 
-> 两个协议最终都归于同一基金会管理，标志着 Agent 通信标准走向统一。
+> 2026 年，Linux Foundation Agentic AI Foundation 统一管理 MCP + A2A 两大协议，标志着 Agent 通信标准走向真正统一。
+
+### A2A v2：协作能力的质的飞跃
+
+2026 年 4 月，A2A v2 解决了 Agent 协作史上最大的架构限制：
+
+**v1 的痛点：** 所有 Agent 共享一个通信 bot → bot 不能触发自己 → Agent 之间只能单向派任务，无法真正讨论。
+
+**v2 的解决方案：** 给关键 Agent 创建独立的通信 App → 拉进共享频道 → Agent 之间可以像同事一样讨论、评审、迭代。
+
+```python
+# A2A v2 协作示例
+# 之前（单向派发）：
+Agent A → "去做这个" → Agent B  # B 无法回应讨论
+
+# 现在（双向协作）：
+Agent A → "我这么想，你觉得呢？" 
+Agent B → "我不同意，原因是..."
+Agent C → "我来仲裁..."
+# 最终达成共识，用户 review 产出
+```
 
 ---
 
