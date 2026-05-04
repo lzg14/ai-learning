@@ -1,5 +1,7 @@
 # AI Agent 学习课程：40 天从入门到实战
 
+![AI Agent Banner](resources/AI.jpg)
+
 > 本课程面向零基础学习者，系统掌握 AI Agent 开发技能。使用国产大模型（GLM、DeepSeek、Qwen、Kimi）。
 
 ---
