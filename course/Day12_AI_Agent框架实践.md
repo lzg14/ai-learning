@@ -253,3 +253,12 @@ crew_llm = LLM(
 1. 用 CrewAI 构建一个"论文写作团队"（researcher / writer / reviewer / editor）
 2. 对比 LangChain Agent 和 CrewAI 在同一任务上的表现
 3. 用 LlamaIndex 构建一个本地知识库 RAG 系统
+
+## 📌 课程更新 (2026-05-06)
+
+> 以下内容由 AI 评审（≥70分）推荐补充
+
+### 多Agent协作（评分：88）
+- **标题：** 智能体学习12:多智能体协作(Multi-Agent Collaboration)  
+- **来源：** https://blog.csdn.net/weixin_519 Extra  
+- **推荐理由：** 多Agent协作是2025年AI Agent前沿方向

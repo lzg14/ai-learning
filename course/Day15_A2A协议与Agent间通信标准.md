@@ -835,3 +835,18 @@ if __name__ == "__main__":
 2. 实现 A2A 客户端，能发现远程 Agent 并调用其技能
 3. 构建一个 3 Agent 网络（天气 + 新闻 + 提醒），实现简单的编排
 4. （进阶）设计一个同时使用 MCP 工具和 A2A 协作的混合 Agent
+
+## 📌 课程更新 (2026-05-06)
+
+> 以下内容由 AI 评审（≥70分）推荐补充
+### A2A协议（评分：86）
+- **标题：** A2A协议:AI领域的TCP/IP协议  
+- **来源：** https://blog.csdn.net/Julialove102123/article/details/147385121  
+- **推荐理由：** A2A是2025年4月谷歌推出的AI Agent通信标准
+
+
+### AI安全（评分：87）
+- **标题：** 提示词注入攻击如何防范:从Indirect Prompt Injection到RAG供应链的分层防御  
+- **来源：** https://blog.csdn.net/fei  
+- **推荐理由：** 提示词注入是AI Agent落地的重大安全隐患
+
