@@ -69,7 +69,7 @@
 
 | Day | 课程名称 | 核心内容 |
 |-----|----------|---------|
-| Day21 | [代码 Agent 开发实战](course/Day21_代码Agent开发实战.md) | 代码 Agent 架构（规划/编写/执行/调试）、Sandbox 执行环境、测试生成、Coding Agent 优化 |
+| Day21 | [代码 Agent 开发实战](course/Day21_代码Agent开发实战.md) | 代码 Agent 架构（规划/编写/执行/调试）、Sandbox 执行环境、测试生成、Coding Agent 优化、**OpenAI Symphony 生产级案例** |
 | Day22 | [数据 Agent 与分析助手](course/Day22_数据Agent与分析助手.md) | 数据分析 Agent 架构、自然语言查询、报表生成、数据可视化、国产分析方案 |
 | Day23 | [Computer Use 与浏览器自动化 Agent](course/Day23_Computer_Use与浏览器自动化Agent.md) | Browser Use 原理、Playwright + CDP 控制、视觉驱动的 UI 交互、结构化数据提取 |
 | Day24 | [Agent 生产化与可观测性](course/Day24_Agent生产化与可观测性.md) | 生产环境 Agent 监控（Trace/Span）、Langfuse 集成、关键指标（延迟/成本/准确率）、A/B 测试与灰度发布、评估体系构建 |
