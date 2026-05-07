@@ -20,6 +20,7 @@
 | Ext13 | [AGI 不会通知你](../course/Ext13_AGI不会通知你.md) | AI 安全 |
 | Ext15 | [OpenClaw——首个"一人独角兽"的开工拉齐](../course/Ext15_OpenClaw_首个一人独角兽.md) | 开源生态 |
 | Ext16 | [Harness Engineering——AI Coding 率从 25% 提升至 90%](../course/Ext16_HarnessEngineering_AI_Coding90percent.md) | 开发模式 |
+| Ext17 | [ARIS——让 Claude Code 在你睡觉时做科研](../course/Ext17_ARIS_AutoResearchInSleep.md) | 开发模式 |
 
 ## 主题分类
 
@@ -34,6 +35,7 @@
 - Ext06 [AI 时代的开发者——从翻译需求到编排链路](../course/Ext06_AI时代的开发者_从翻译需求到编排链路.md)
 - Ext07 [踏妈的 Agent](../course/Ext07_踏妈的Agent.md)
 - Ext16 [Harness Engineering——AI Coding 率从 25% 提升至 90%](../course/Ext16_HarnessEngineering_AI_Coding90percent.md)
+- Ext17 [ARIS——让 Claude Code 在你睡觉时做科研](../course/Ext17_ARIS_AutoResearchInSleep.md)
 
 ### 行业趋势
 - Ext10 [斯坦福 AI 年度报告 2026 全解读](../course/Ext10_斯坦福AI年度报告.md)
