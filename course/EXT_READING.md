@@ -21,6 +21,17 @@
 | Ext15 | [OpenClaw——首个"一人独角兽"的开工拉齐](../course/Ext15_OpenClaw_首个一人独角兽.md) | 开源生态 |
 | Ext16 | [Harness Engineering——AI Coding 率从 25% 提升至 90%](../course/Ext16_HarnessEngineering_AI_Coding90percent.md) | 开发模式 |
 | Ext17 | [ARIS——让 Claude Code 在你睡觉时做科研](../course/Ext17_ARIS_AutoResearchInSleep.md) | 开发模式 |
+| Ext18 | [OpenMAIC——多 Agent 驱动的互动课堂](../course/Ext18_OpenMAIC_MultiAgentInteractiveClassroom.md) | 开源生态 |
+| Ext19 | [DeepResearch——自动深度研究智能体复现](../course/Ext19_DeepResearch_自动深度研究智能体.md) | 开发模式 |
+
+| Ext19 | [belief or circuitry causal evidence for in context graph lea](../course/Ext19_belief-or-circuitry-causal-evidence-for-in-context-graph-lea.md) | 论文 |
+
+| Ext20 | [towards customized multimodal role play](../course/Ext20_towards-customized-multimodal-role-play.md) | 论文 |
+
+| Ext21 | [how much do circuits tell us measuring the consistency and s](../course/Ext21_how-much-do-circuits-tell-us-measuring-the-consistency-and-s.md) | 论文 |
+
+|| Ext22 | [vladriver rag retrieval augmented vision language action mod](../course/Ext22_vladriver-rag-retrieval-augmented-vision-language-action-mod.md) | 论文 |
+|| Ext23 | [Agent Skills——微软 AI 工程技能包](../course/Ext23_AgentSkills_AI工程技能包.md) | 开发模式 |
 
 ## 主题分类
 
@@ -36,6 +47,8 @@
 - Ext07 [踏妈的 Agent](../course/Ext07_踏妈的Agent.md)
 - Ext16 [Harness Engineering——AI Coding 率从 25% 提升至 90%](../course/Ext16_HarnessEngineering_AI_Coding90percent.md)
 - Ext17 [ARIS——让 Claude Code 在你睡觉时做科研](../course/Ext17_ARIS_AutoResearchInSleep.md)
+- Ext19 [DeepResearch——自动深度研究智能体复现](../course/Ext19_DeepResearch_自动深度研究智能体.md)
+- Ext23 [Agent Skills——微软 AI 工程技能包](../course/Ext23_AgentSkills_AI工程技能包.md)
 
 ### 行业趋势
 - Ext10 [斯坦福 AI 年度报告 2026 全解读](../course/Ext10_斯坦福AI年度报告.md)
@@ -48,3 +61,4 @@
 
 ### 开源生态
 - Ext15 [OpenClaw——首个"一人独角兽"的开工拉齐](../course/Ext15_OpenClaw_首个一人独角兽.md)
+- Ext18 [OpenMAIC——多 Agent 驱动的互动课堂](../course/Ext18_OpenMAIC_MultiAgentInteractiveClassroom.md)
