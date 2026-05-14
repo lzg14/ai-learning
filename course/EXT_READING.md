@@ -67,6 +67,9 @@
 - Ext26 [Obsidian + Hermes Agent 内容生产线——最小启动版本](../course/Ext26_Obsidian_Hermes内容生产线_最小启动版本.md)
 - Ext27 [Hermes-Wiki——让知识库通过双链自己长出网络](../course/Ext27_Hermes-Wiki_让知识库通过双链自己长出网络.md)
 
+### AI 编程与工程实践
+- Ext28 [AI 编程的杠杆点——流程嵌入，而非单次回答](../course/Ext28_AI编程的杠杆点_流程嵌入而非单次回答.md)
+
 ### 开源生态
 - Ext15 [OpenClaw——首个"一人独角兽"的开工拉齐](../course/Ext15_OpenClaw_首个一人独角兽.md)
 - Ext18 [OpenMAIC——多 Agent 驱动的互动课堂](../course/Ext18_OpenMAIC_MultiAgentInteractiveClassroom.md)
