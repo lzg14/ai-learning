@@ -63,6 +63,9 @@
 - Ext24 [Hermes 外部记忆组件实战对比——8 个方案选型指南](../course/Ext24_Hermes外部记忆组件实战对比.md)
 - Ext25 [LLM Wiki——从临时问答到长期知识资产](../course/Ext25_LLM_Wiki_从临时问答到长期知识资产.md)
 
+### 内容生产与知识管理
+- Ext26 [Obsidian + Hermes Agent 内容生产线——最小启动版本](../course/Ext26_Obsidian_Hermes内容生产线_最小启动版本.md)
+
 ### 开源生态
 - Ext15 [OpenClaw——首个"一人独角兽"的开工拉齐](../course/Ext15_OpenClaw_首个一人独角兽.md)
 - Ext18 [OpenMAIC——多 Agent 驱动的互动课堂](../course/Ext18_OpenMAIC_MultiAgentInteractiveClassroom.md)
