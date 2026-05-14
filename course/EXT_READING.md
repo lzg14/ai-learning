@@ -32,6 +32,8 @@
 
 || Ext22 | [vladriver rag retrieval augmented vision language action mod](../course/Ext22_vladriver-rag-retrieval-augmented-vision-language-action-mod.md) | 论文 |
 || Ext23 | [Agent Skills——微软 AI 工程技能包](../course/Ext23_AgentSkills_AI工程技能包.md) | 开发模式 |
+|| Ext28 | [AI 编程的杠杆点——流程嵌入而非单次回答](../course/Ext28_AI编程的杠杆点_流程嵌入而非单次回答.md) | 工程实践 |
+|| Ext29 | [ELF——何恺明首个语言模型，不走GPT自回归老路](../course/Ext29_ELF_Embedded_Language_Flows_何恺明首个语言模型.md) | 论文解读 |
 
 ## 主题分类
 
@@ -69,6 +71,9 @@
 
 ### AI 编程与工程实践
 - Ext28 [AI 编程的杠杆点——流程嵌入，而非单次回答](../course/Ext28_AI编程的杠杆点_流程嵌入而非单次回答.md)
+
+### 论文解读
+- Ext29 [ELF——何恺明首个语言模型，不走 GPT 自回归老路](../course/Ext29_ELF_Embedded_Language_Flows_何恺明首个语言模型.md)
 
 ### 开源生态
 - Ext15 [OpenClaw——首个"一人独角兽"的开工拉齐](../course/Ext15_OpenClaw_首个一人独角兽.md)
