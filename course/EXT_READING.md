@@ -61,6 +61,7 @@
 
 ### 记忆系统
 - Ext24 [Hermes 外部记忆组件实战对比——8 个方案选型指南](../course/Ext24_Hermes外部记忆组件实战对比.md)
+- Ext25 [LLM Wiki——从临时问答到长期知识资产](../course/Ext25_LLM_Wiki_从临时问答到长期知识资产.md)
 
 ### 开源生态
 - Ext15 [OpenClaw——首个"一人独角兽"的开工拉齐](../course/Ext15_OpenClaw_首个一人独角兽.md)
