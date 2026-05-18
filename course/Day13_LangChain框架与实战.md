@@ -284,6 +284,99 @@ print(result["messages"])
 
 ---
 
+## Part 5：从零构建 Agent 框架——HelloAgents 设计思路
+
+> 本节内容整理自 Datawhale 开源教程 [hello-agents 第七章](https://github.com/datawhalechina/hello-agents)，有删改。
+
+### 5.1 为什么需要自建框架
+
+市场已有 LangChain、AutoGen 等成熟框架，自建的原因：
+
+| 痛点 | 说明 |
+|------|------|
+| **过度抽象** | LangChain 为追求通用性引入了大量抽象层和配置项，完成简单任务也需要理解十几个概念 |
+| **版本不稳定** | 商业框架频繁变更 API 接口，版本升级后代码跑不通是常态 |
+| **黑盒实现** | 核心逻辑封装过紧，难以理解 Agent 内部工作机制，深度定制能力受限 |
+| **依赖复杂** | 成熟框架携带大量依赖包，安装包体积大，与其他项目配合时容易冲突 |
+
+**从用户到构建者的能力跃迁**：
+
+- 亲手实现每个组件，真正理解 Agent 的思考过程、工具调用机制
+- 完全掌控每一行代码，不受第三方框架设计哲学束缚
+- 培养系统设计能力：模块化设计、接口抽象、错误处理
+
+### 5.2 HelloAgents 设计哲学
+
+hello-agents 自研的 HelloAgents 框架围绕一个核心问题设计：**如何在功能完整性和学习友好性之间找到平衡？**
+
+**四大设计原则**：
+
+| 原则 | 说明 |
+|------|------|
+| **轻量且教学友好** | 核心代码按章节分离，任何有编程基础的人都能完全理解框架工作原理 |
+| **基于标准 API** | 基于 OpenAI 标准接口开发，兼容所有兼容 OpenAI API 的服务商 |
+| **渐进式学习路径** | 每章在上一章基础上增加功能模块，学习成本自然递增，无概念跳跃 |
+| **统一 Tool 抽象** | 除核心 Agent 类外，一切皆是 Tool（Memory/RAG/MCP 均为 Tool） |
+
+### 5.3 HelloAgents 核心架构
+
+```
+HelloAgents 架构（简化版）
+├── HelloAgentsLLM    — 模型调用层，支持多 Provider（OpenAI/智谱/ModelScope/Ollama）
+├── Tool              — 工具抽象基类，一切皆是 Tool
+├── Agent             — 核心 Agent 类（推理循环 + 工具调用）
+├── Memory            — 记忆系统（ChatHistory/Summary/VectorStore）
+├── RAG               — 检索增强生成（作为 Tool 接入）
+└── MCP               — 协议支持（作为 Tool 接入）
+```
+
+**与 LangChain 的核心区别**：
+
+| 对比项 | LangChain | HelloAgents |
+|--------|-----------|-------------|
+| 抽象层级 | 多层（Chain/Agent/Tool/Retriever…） | 极简（Agent + Tool 两层） |
+| 学习曲线 | 陡峭 | 平缓 |
+| Provider 扩展 | 依赖官方集成 | 继承 HelloAgentsLLM Override 即可 |
+| 代码可控性 | 黑盒较重 | 全透明 |
+
+### 5.4 自定义 Provider 扩展示例
+
+以新增 ModelScope 支持为例，展示如何通过继承扩展 HelloAgentsLLM：
+
+```python
+from hello_agents import HelloAgentsLLM
+
+class MyLLM(HelloAgentsLLM):
+    def __init__(self, provider="auto", **kwargs):
+        if provider == "modelscope":
+            self.provider = "modelscope"
+            self.base_url = "https://api-inference.modelscope.cn/v1/"
+            self.model = kwargs.get("model") or "Qwen/Qwen2.5-VL-72B-Instruct"
+            # ... 解析 API Key 等
+            self._client = OpenAI(api_key=self.api_key, base_url=self.base_url)
+        else:
+            # 其他 Provider 走父类逻辑
+            super().__init__(provider=provider, **kwargs)
+```
+
+**扩展思路**：
+1. 继承 HelloAgentsLLM
+2. 在 `__init__` 中拦截特定 provider
+3. 其他情况 `super().__init__(...)` 委托给父类
+
+### 5.5 自建框架 vs 使用成熟框架
+
+| 场景 | 推荐 |
+|------|------|
+| 快速验证想法 / POC | 直接用 LangChain/CrewAI，不重复造轮子 |
+| 学习 Agent 内部原理 | 按 hello-agents 第七章思路自己搭 |
+| 企业级生产项目 | 评估维护成本后选 LangChain/LangGraph |
+| 特定领域深度定制 | 在成熟框架基础上二次开发，或自建精简框架 |
+
+> **核心认知**：自建框架的目的不是替代 LangChain，而是通过亲手构建，理解 Agent 工作原理。在实际工作中，"用轮子"和"造轮子"都要会——根据场景选择合适的策略。
+
+---
+
 ## 今日要点
 
 - 理解了 LangChain 四大核心组件：Prompt、Model、Chain、Tool
@@ -292,6 +385,7 @@ print(result["messages"])
 - 理解了对话记忆的多种类型和使用场景
 - 掌握了 RAG Chain 的完整构建流程
 - 了解了 LangGraph 状态机的基本用法
+- 理解了自建 Agent 框架（HelloAgents）的设计思路与适用场景
 
 ---
 
